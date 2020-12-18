@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+
+    <div class="contenedor"><h1>calculadora</h1></div>
+    <form name="calc">
+        <input type="text" name="text" id="campo" value=""/>
+        <br>
+        <input type="button" value="1" class="uno" onclick="el1()">
+        <input type="button" value="2" class="uno" onclick="el2()">
+        <input type="button" value="3" class="uno" onclick="el3()">
+        <input type="button" value="+" class="uno" onclick="elsum()">
+
+        <br>
+
+        <input type="button" value="4" class="dos" onclick="el4()">
+        <input type="button" value="5" class="dos"onclick="el5()">
+        <input type="button" value="6" class="dos"onclick="el6()">
+        <input type="button" value="-" class="dos"onclick="elrest()">
+
+        <br>
+
+        <input type="button" value="7" class="tres"onclick="el7()">
+        <input type="button" value="8" class="tres"onclick="el8()">
+        <input type="button" value="9" class="tres"onclick="el9()">
+        <input type="button" value="x" class="tres"onclick="elmulti()">
+        
+        <br>
+
+        <input type="button" value="%" class="cuatro"onclick="eldivi()">
+        <input type="button" value="C" class="cuatro"onclick="ellimp()">
+        <input type="button" value="0" class="cuatro"onclick="el0()">
+        <input type="button" value="=" class="cuatro" onclick="calc.text.value=eval(calc.text.value)">
+    </form> 
+</body>
+</html>
