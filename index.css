@@ -7,75 +7,76 @@ body{
   text-align-last: center;
 }
 .contenedor{
-        width:300px;
-        height:400px;
-        position:absolute;
-        top: 153px;
-        left:564px;
-        background-color:grey;
-        border-radius:10px;
-        
-}
-.contenedor,h1{
-    text-align: center;
-    font-size: 150%;
-    margin-top: -1px;
-
+    width:300px;
+    height:470px;
+    position: relative;
+    top: 153px;
+    left:30%;
+    background-color:rgb(78, 77, 77);
+    border-radius:10px;
+    box-shadow: 3px 3px #3a3939;
 }
 #campo{
-    position:absolute;
-    top:208px;
-    left:574px;
+    position: relative;
+    top:20px;
     width:270px;
-    height:80px;
+    height:90px;
     border-radius:10px solid ;
     font-family:Garamond,Serif;
     font-size:20px;
     font-size:x-large ;
-    background-color:#bccd95;
-    
+    background-color:#95c2cd;
 }
-.uno{
-    position:relative;
-    top:290px;
-    left:50px;
-    width:60px;
-    height:40px;
-    font-family:Impact,Charcoal,sans-serif;
-    font-size:20px;
-    font-weight:bolder;
-    border-radius:10%;
-}
-.dos{
-    position:relative;
-    top:295px;
-    left:50px;
-    width:60px;
-    height:40px;
-    font-family:Impact,Charcoal,sans-serif;
-    font-weight:bolder;
-    font-size:20px;
-    border-radius:10%;
-}
-.tres{
-    position:relative;
-    top:300px;
-    left:50px;
-    width:60px;
-    height:40px;
-    font-family:Impact,Charcoal,sans-serif;
-    font-size:20px;
-    font-weight:bolder;
-    border-radius:10%;
-}
-.cuatro{
-    position:relative;
-    top:310px;
-    left:50px;
-    width:60px;
-    height:40px;
-    font-size:20px;
-    font-weight:bolder;
-    border-radius:10%;
+.grilla{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 15px;
 }
 
+.btn {
+    position:relative;
+    height:60px;
+    font-family:Impact,Charcoal,sans-serif;
+    font-size:20px;
+    font-weight:bolder;
+    top: 30px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 1px;
+}
+.btn:hover{
+    background-color: #bbd7f0;
+}
+.btn:active{
+    background-color: #8bbeeb;
+    border: none;
+}
+.btn:focus{
+    outline: none;
+}
+.op{
+    color: rgb(9, 84, 128);
+}
+.result{
+    grid-column: 3 / span 2;
+    background-color: rgb(48, 132, 228);
+}
+.result:hover{
+    background-color: rgb(32, 96, 170);
+}
+.result:active{
+    background-color:rgb(25, 72, 126);
+    border: none;
+}
+.clean{
+    grid-column: 1 / span 2;
+    background-color: rgb(245, 89, 89);
+}
+.clean:hover{
+    background-color: rgb(180, 66, 66);
+}
+.clean:active{
+    background-color:rgb(134, 48, 48);
+    border: none;
+}
