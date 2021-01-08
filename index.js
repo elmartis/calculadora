@@ -1,5 +1,4 @@
 //números y operadores
-
 function el0(){
     calc.text.value+="0";
 }
