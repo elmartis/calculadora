@@ -4,8 +4,10 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;  
   background-size: cover;
-  text-align-last: center;
 }
+/* ---------- */
+/* Encabezado */
+/* ---------- */
 h1{
     text-align: center;
     position: relative;
@@ -14,16 +16,32 @@ h1{
     color: #00549d;
     font-size: 45px;
 }
+
+/* ----------------- */
+/* Grillas del cuerpo*/
+/* ----------------- */
+.columnas{
+    text-align-last: center;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* ----------- */
+/* Calculadora */
+/* ----------- */
 .contenedor{
-    width:300px;
+    width:100%;
     height:470px;
     position: relative;
     top: 45px;
-    left:32%;
     background-color:rgb(78, 77, 77);
     border-radius:10px;
     box-shadow: 3px 3px #3a3939;
+    
 }
+/* pantalla de la calculadora */
 #campo{
     position: relative;
     top:20px;
@@ -34,12 +52,13 @@ h1{
     font-size:30px;
     background-color:#95c2cd;
 }
+/* grillas de los botones */
 .grilla{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin: 15px;
 }
-
+/* botones */
 .btn {
     position:relative;
     height:60px;
@@ -87,8 +106,15 @@ h1{
     background-color:rgb(134, 48, 48);
     border: none;
 }
+
+
+/* ------ */
+/* footer */
+/* ------ */
 .pie {
     position: relative;
     top: 100px;
     background-color: #dfdcdcd0;
+    padding: 20px;
+    text-align-last: center;
 }

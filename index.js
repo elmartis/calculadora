@@ -1,3 +1,8 @@
+//números y operadores
+
+function el0(){
+    calc.text.value+="0";
+}
 function el1(){
     calc.text.value+="1";
 }
@@ -37,15 +42,15 @@ function elmulti(){
 function eldivi(){
     calc.text.value+="/";
 }
-function ellimp(){
-    calc.text.value="";
-}
-function el0(){
-    calc.text.value+="0";
-}
+
 function porcentaje(){
     calc.text.value+="/100";
 }
+
 function punto(){
     calc.text.value+=".";
+}
+//botón borrar
+function ellimp(){
+    calc.text.value="";
 }
