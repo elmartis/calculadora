@@ -1,4 +1,3 @@
-var c;
 function el1(){
     calc.text.value+="1";
 }
@@ -43,4 +42,10 @@ function ellimp(){
 }
 function el0(){
     calc.text.value+="0";
+}
+function porcentaje(){
+    calc.text.value+="/100";
+}
+function punto(){
+    calc.text.value+=".";
 }
